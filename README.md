@@ -8,3 +8,9 @@ bb ru-ui status
 ```
 
 Settings → **Russian UI** → **Translate chrome labels**.
+
+Install from GitHub:
+
+```sh
+bb plugin install https://github.com/Bromisanthrope/bb-plugin-ru-ui
+```

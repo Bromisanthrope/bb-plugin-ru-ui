@@ -1,0 +1,27 @@
+{
+  "name": "bb-plugin-ru-ui",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "bb": ">=0.50",
+    "bbPluginSdk": ">=0.6.157"
+  },
+  "bb": {
+    "name": "Russian UI",
+    "description": "Translates bb chrome labels (menus, settings, buttons) to Russian. Agent chat stays unchanged.",
+    "branding": {
+      "icon": "Languages"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": ["skills"]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.157",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
